@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(218, 225, 229);
+}
+
+.main-container {
+    display: flex;
+}
+
+.title {
+    display: flex;  
+    align-items: center;
+    padding-left: 80px;
+    border-bottom: 20px  solid rgb(89, 87, 89);
+    min-height: 200px;
+    margin-bottom: 20px;
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+}
+
+.login-container {
+    display: flex;
+    width: 300px; 
+    height: 200px; 
+    justify-content: space-between; 
+    flex-direction: column;
+    padding: 0;
+    margin: 10px 60px 0 20px;
+}
+
+.details-container {
+    display: flex;
+    justify-content: right; 
+    flex-direction: column;
+    padding: 0;
+    margin: 10px;
+}
+
+.search {
+    width: 500px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+li{
+    font-weight: bold;
+}
+
+.li1:hover {
+    border-radius:3px;
+    transform: scale(1.02);
+    background-color:#DCDCDC;
+}
+
+i {
+    margin-right: 10px; 
+}
+
+.btn1 {
+    width:100px;
+    height:36px;  
+}
+
+.card-header {
+    background-color: #65868c;
+    padding-left: 4px;;
+}
+
+input {
+    margin: 2px 5px 0 5px;
+    padding-left: 2px;
+}
+
+button {
+    margin: 5px;
+}
+
+.message {
+    display: flex;
+    font-weight: bold;
+    background-color: grey;
+    text-align: center;
+    border-radius: 3PX;
+    margin: 2px 5px 0 5px;
+}
+
+.image {
+    max-width: 200px;
+    max-height: 250px;
+    margin: 5px;  
+}
+
+.details-group {
+    display: flex;
+    max-width: 600px;
+    text-align: justify;
+}

@@ -1,26 +1,31 @@
-// Resposta 1
-const funcionario = {
-    codigo: 10,
-    nome: 'João'
+// O desafio proproe criar um objeto emplyee com propriedades name e code.
+
+/*  A forma mais simples é atribuir os valores diretamente a propriedade
+    sem definir explicitamente os tipo de dados. */
+
+let employee = {
+    name: 'Jonh',
+    code: 10
 };
 
-// Resposta 2
-const funcionario2: {codigo: number, nome: string} = {
-    codigo: 10,
-    nome: 'joao'
-}
+/*  Outra forma é atribuir os valores a propriedade
+    definindo antecipadamente os tipo de dados. */
 
-// Respostas 3 e 4
-interface Funcionario {  // Já conhece interfaces? https://blog.logrocket.com/types-vs-interfaces-in-typescript/
-    codigo: number,
-    nome: string
+let employee2: { name: string, code: number } = {
+    name: 'Jonh',
+    code: 10
 };
 
-const funcionarioObj = {} as Funcionario;
-funcionarioObj.codigo = 10;
-funcionarioObj.nome = 'João';
+/* Pode-se ainda criar o objeto através do uso de uma intterface 
+que descreve a estrutura que o objeto terá. Posteriormente atribuir
+    os valores as propriedades. */
 
-const funcionarioObj2: Funcionario = {
-    codigo: 10,
-    nome: 'João'
+interface EmployeeInterfce {
+    name: string,
+    code: number
+};
+
+let employee3: EmployeeInterfce = {
+    name: 'Jonh',
+    code: 10
 }
