@@ -4,9 +4,9 @@ Onde o desafio 4 cria um projeto que consome a base de dados de filme do TMDB pa
 ![Print TheMoviedb](src/img/TheMoviedb.png)
 
 A ideia dessa atividade é criar um aplicativo que: 
-    * Busca filmes*
-    * Apresenta uma lista com os resultados pesquisados*
-    * Permite a criação de listas de filmes e a posterior adição de filmes nelas*
+* Busca filmes
+* Apresenta uma lista com os resultados pesquisados
+* Permite a criação de listas de filmes e a posterior adição de filmes nelas
     
 ## Sobre a estrutura de commits  
 Os commits foram feitos de tal forma que o usuário pode ler commit a commit em ordem de publicação e acompanhar gradualmente a criação do repositório e a lógica aplicada. É recomendado que o primeiro estudo seja feito dessa forma. Pequenos erros nos comentários ou de gramática podem ser encontrados no caminho (consequências do programador que estuda de madrugada), mas eles já foram devidamente corrigidos na última versão da main.
